@@ -1,0 +1,35 @@
+<view class="page">
+  <!-- top部分 -->
+  <view class="top">
+    <input placeholder="输入城市名进行搜索" bindinput="bindKeyInput"></input>
+    <view class="icon">
+      <icon type="search" size="25" bindtap="search" />
+    </view>
+  </view>
+  <!-- body部分 -->
+  <view class="body">
+    <view class="city">
+      <text>{{city}}</text>
+    </view>
+    <view class="today">
+      <text>{{date}}</text>
+    </view>
+    <view>
+      <image src="{{pic}}" mode="aspectFit" style="width: 400rpx; height: 400rpx" />
+    </view>
+  </view>
+  <!-- bottom部分 -->
+  <view class="bottom">
+    <view class="weather">
+      <text>{{weather}}</text>
+    </view>
+    <view class="right">
+      <view class="temp">
+        <text>{{temp}}</text>
+      </view>
+      <view class="wind">
+        <text>{{wind}}</text>
+      </view>
+    </view>
+  </view>
+</view>
