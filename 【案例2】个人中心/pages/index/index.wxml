@@ -1,0 +1,11 @@
+<view class="nav">
+  <text class="welcome">欢迎来到我的个人页</text>
+  <image src="/images/img3.jpg" mode="aspectFill" bindtap="changeImage"></image>
+</view>
+<view class="content">
+  <view>昵称：lvxueting120</view>
+  <view>星座：水瓶座</view>
+  <view>兴趣：听歌、旅游</view>
+  <view>QQ：204433****</view>
+  <view>电话：178****1605</view>
+</view>
